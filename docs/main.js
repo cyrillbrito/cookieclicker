@@ -1,4 +1,4 @@
-/*
+﻿/*
 All this code is copyright Orteil, 2013-2022.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -1168,7 +1168,7 @@ var Game={};
 	}
 	
 	Game.LoadMod=LoadScript;//loads the mod at the given URL
-
+	
 	if (false)
 	{
 		//EXAMPLE MOD
@@ -1934,7 +1934,7 @@ Game.Launch=function()
 		Game.wrapper=l('wrapper');
 		Game.bounds=0;//rectangle defining screen limits (right,left,bottom,top) updated every logic frame
 		
-		// Manual alteration to hide the top bar
+		// cyrillbrito: Hide the top bar
 		TopBarOffset=0;
 		Game.wrapper.classList.add('offWeb');
 		
@@ -2452,7 +2452,7 @@ Game.Launch=function()
 		
 		Game.GrabData=function()
 		{
-			// Manual alteration to avoid external call
+			// cyrillbrito: Avoid external call
 			if (!App) ajax('external/grab.json',Game.GrabDataResponse);
 			else App.grabData(function(res){
 				Game.heralds=res?(res.playersN||1):1;
@@ -15934,7 +15934,7 @@ window.onload=function()
 								Game.Init();
 								if (firstLaunch) Game.showLangSelection(true);
 
-								// Manual alteration to load Cookie monster mod
+								// cyrillbrito: Load Cookie Monster mod
 								Game.LoadMod('mods/CookieMonster.js');
 							});
 						}
