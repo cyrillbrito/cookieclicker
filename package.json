@@ -1,0 +1,11 @@
+{
+  "name": "cookieclicker",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm src/main.ts"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ts-node": "^10.9.1"
+  }
+}
