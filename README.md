@@ -9,7 +9,7 @@ This can be useful if you want to:
 
 # How to use
 
-Eader download the repo or clone it and host the `/docs` folder using a http server of your preference.
+Either download the repo or clone it and host the `/docs` folder using a http server of your preference.
 
 # How it works
 
