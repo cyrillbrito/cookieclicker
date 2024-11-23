@@ -13,7 +13,7 @@ Either download the repo or clone it and host the `/docs` folder using a http se
 
 # How it works
 
-There is a node script that downloads all the files needed to run the game and saves them in the `/docs` folder.
+There is a bun script that downloads all the files needed to run the game and saves them in the `/docs` folder.
 
 The list of needed files was obtained by inspecting the code and by looking at the steam version files.
 

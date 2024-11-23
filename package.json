@@ -1,13 +1,13 @@
 {
   "name": "cookieclicker",
+  "module": "src/main.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node-esm src/main.ts"
+    "start": "bun run src/main.ts"
   },
   "dependencies": {
-    "@types/node": "^20.1.1",
-    "axios": "^1.4.0",
-    "ts-node": "^10.9.1",
+    "@types/bun": "latest",
+    "axios": "^1.7.7",
     "typescript": "^5.0.4"
   }
 }
